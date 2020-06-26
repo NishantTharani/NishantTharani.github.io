@@ -95,6 +95,8 @@ hr {
 
 .bottom-container {
   background-color: #66bfbf;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .contact-btn {
