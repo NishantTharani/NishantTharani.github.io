@@ -1,0 +1,45 @@
+/* Navbar */
+
+.navbar {
+  /* background: none; */
+}
+
+.nav-link {
+  color: #adadae;
+}
+
+/* My color palette */
+
+.dark-bg-1 {
+  background-color: #0f1211;
+}
+
+.dark-bg-2 {
+  background-color: #26272c;
+}
+
+.dark-title-1 {
+  color: #d8d5ca;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.dark-title-2 {
+  color: #adadae;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.dark-lead-text {
+  color: #adadae;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  /* font-style: italic; */
+}
+
+.dark-body-1 {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}

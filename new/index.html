@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nishant Tharani</title>
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JS required for Bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Icons pack -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"
+      integrity="sha256-HkXXtFRaflZ7gjmpjGQBENGnq8NIno4SDNq/3DbkMgo="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <section id="navbar">
+      <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-faded">
+        <!-- <a class="navbar-brand" href="index.html">Nishant Tharani</a> -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link .active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Form</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="forfun.html">Have Fun</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="facts.html">Some Facts</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <section id="title">
+      <div class="jumbotron">
+        <h1 class="display-2 title-text">I'm Nishant</h1>
+      </div>
+    </section>
+
+    <!-- Photos and bio -->
+    <section id="bio" class="dark-bg-1">
+      <div
+        id="photos-carousel"
+        class="carousel slide"
+        data-interval="400000"
+        data-pause="hover"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="carousel-image"
+              src="images/carousel/kirby.png"
+              alt="Kirby (Source: Nintendo Character's Wikipedia Page)"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <p class="dark-body-1">
+                Source: Nintendo Character's Wikipedia Page
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="carousel-image"
+              src="images/carousel/me.jpeg"
+              alt="Photo of Nish"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="carousel-image"
+              src="images/carousel/znz.jpg"
+              alt="Zanzibar"
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#photos-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#photos-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <div class="container">
+        <p class="bio-text dark-body-1">
+          In my head I look like Kirby, but in reality I have longer arms,
+          ending in hands that have five fingers. That's what lets me learn
+          programming so well. That and the opposable thumbs, can't rule them
+          out.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="dark-bg-2">
+      <div class="container skills-container">
+        <h2 class="dark-title-1">Skills</h2>
+        <p class="lead dark-lead-text">I have them</p>
+        <hr />
+        <div class="skill row">
+          <div class="col-md-3 skill-photo">
+            <img
+              src="images/skills/computer.png"
+              alt="Computer"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-9 skill-text">
+            <p class="dark-title-2">
+              <strong>Just one...more...line...</strong>
+            </p>
+            <p class="dark-body-1">
+              I can program! That's why you're here right? You're looking for a
+              programmer yes? Great, you can reach me at...wait, I probably
+              should have set that contact form to work... Oh well, there's
+              always the social media links at the bottom of this page.
+            </p>
+          </div>
+        </div>
+        <div class="skill row">
+          <div class="col-md-9 skill-text">
+            <p class="dark-title-2">
+              <strong>Can I get that without the chilli?</strong>
+            </p>
+            <p class="dark-body-1">
+              I'm well above average in being unable to eat food that's too
+              spicy, a valuable skill that never ceases to amuse waiters taking
+              my order.
+            </p>
+          </div>
+          <div class="col-md-3 skill-photo">
+            <img
+              src="images/skills/chillies.png"
+              alt="Chillies"
+              class="w-100"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Links -->
+    <footer id="links" class="dark-bg-1">
+      <a href="https://twitter.com/ImpermanentNish">
+        <i class="fab fa-twitter link-icon"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/nishtharani/">
+        <i class="fab fa-linkedin link-icon"></i>
+      </a>
+    </footer>
+  </body>
+</html>
