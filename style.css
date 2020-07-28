@@ -46,3 +46,10 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
+
+.dark-body-1 a {
+  /* color: rgba(255, 255, 255, 0.5); */
+  color: #adadae;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
