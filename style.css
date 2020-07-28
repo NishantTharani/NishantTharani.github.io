@@ -4,8 +4,9 @@
   /* background: none; */
 }
 
-.nav-link {
-  color: #adadae;
+.navbar-dark .navbar-nav .nav-link {
+  color: #d8d5ca;
+  font-weight: 600;
 }
 
 /* My color palette */
@@ -26,7 +27,8 @@
 }
 
 .dark-title-2 {
-  color: #adadae;
+  /* color: #adadae; */
+  color: #d8d5ca;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
@@ -39,7 +41,8 @@
 }
 
 .dark-body-1 {
-  color: rgba(255, 255, 255, 0.5);
+  /* color: rgba(255, 255, 255, 0.5); */
+  color: #adadae;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }

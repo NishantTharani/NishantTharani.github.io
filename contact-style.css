@@ -1,0 +1,22 @@
+/* Title and lead */
+
+h1 {
+  padding-left: 3rem;
+  padding-top: 5rem;
+}
+
+.lead {
+  padding-left: 3rem;
+  margin-bottom: 2rem;
+}
+
+/* Contact form */
+
+.form-control {
+  margin: 0.4rem;
+}
+
+.submit-btn {
+  margin-top: 0.5rem;
+  margin-left: 0.3rem;
+}
