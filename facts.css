@@ -8,6 +8,7 @@
 
 #map {
   text-align: center;
+  padding-bottom: 3rem;
 }
 
 #map figcaption {
@@ -17,6 +18,10 @@
 
 .img-map {
   width: 100%;
+}
+
+.map-text {
+  padding-top: 1rem;
 }
 
 /* Food I can't eat */
@@ -47,4 +52,11 @@
 
 #food .lead {
   margin-bottom: 0;
+}
+
+.allergy-text {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  overflow: scroll;
 }
